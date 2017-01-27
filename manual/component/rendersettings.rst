@@ -49,28 +49,28 @@ Optionen
 * **Name** |br|
   der Name kann frei gewählt werden; zur besseren Unterscheidung werden häufig die
   Kürzel "BE" und "FE" für Backend und Frontend vor den Namen gesetzt z.B.
-  "BE Liste", "BE Erfassung" oder "FE Liste komplett"
+  "BE Liste", "BE Erfassung" oder "FE Liste komplett".
 * **Template** |br|
   an dieser Stelle wird ein Template ausgewählt, in dem alle Items in einer Schleife
-  ausgegeben werden; das Template ist sehr leicht in der Contao-üblichen Art überschreibbar
-  zu beachten ist lediglich, dass Templates für das Backend nicht in einem Template-
+  ausgegeben werden; das Template ist sehr leicht in der Contao-üblichen Art überschreibbar.
+  Zu beachten ist lediglich, dass Templates für das Backend nicht in einem Template-
   Unterordner angelegt werden dürfen; dem Template werden alle Attribute im Typ "raw" und
-  nur die aktiven Attribute im Typ "html" und "text" übergeben
+  nur die aktiven Attribute im Typ "html" und "text" übergeben.
 * **Ausgabeformat** |br|
   mögliche Auswahl ist HTML5, XHTML und Text; sofern keine speziellen Anforderungen bestehen,
-  kann die Auswahl leer gelassen werden
+  kann die Auswahl leer gelassen werden.
 * **Weiterleitungsseite** |br|
   die Weiterleitungsseite ist für die Frontendausgabe, um z.B. auf eine Detailseite zu verlinken;
   auf der Detailseite sollte ein Listenelement mit einem entsprechenden Filter vorhanden sein; bei
-  mehrsprachigen MetaModel gibt es je Sprache eine Einstellung für Link und Filter
+  mehrsprachigen MetaModel gibt es je Sprache eine Einstellung für Link und Filter.
 * **Leere Einträge verbergen** |br|
   leere Einträge der Attribute werden übersprungen - wichtig im Zusammenspiel, wenn die
-  Label der Attribute mit ausgegeben werden
+  Label der Attribute mit ausgegeben werden.
 * **Labels verbergen** |br|
-  die Attributnamen werden als "Label" nicht ausgegeben
+  die Attributnamen werden als "Label" nicht ausgegeben.
 * **Zusätzliche CSS/Javascript-Dateien** |br|
   zur Ausgabeformatierung und Interaktion können CSS- und/oder Javascript-Dateien mit ausgegeben
-  werden
+  werden.
 
 Ablauf
 ------
